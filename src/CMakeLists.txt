@@ -2,11 +2,6 @@ add_library(cunit
     ./Automated/Automated.c
     ./Basic/Basic.c
     ./Console/Console.c
-    ./Extend/CUnitSwitch.c
-	./Extend/RunTests.c
-	./Extend/SpecifyTest.c
-	./Extend/StatExeTime.c
-	./Extend/TestHook.c
     ./Framework/CUError.c
     ./Framework/MyMem.c
     ./Framework/TestDB.c

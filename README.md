@@ -24,17 +24,20 @@ cd ./example
 ## result
 
 ```
+
+
      CUnit - A unit testing framework for C - Version 2.1-2
      http://cunit.sourceforge.net/
 
-Suite: ctest_suite_01
-  Test: ctest_api_01 ...passed
+
+Suite: ctest
+  Test: ctest_case1 ...passed
+  Test: ctest_case2 ...passed
 
 Run Summary:    Type  Total    Ran Passed Failed Inactive
               suites      1      1    n/a      0        0
-               tests      1      1      1      0        0
-             asserts      1      1      1      0      n/a
+               tests      2      2      2      0        0
+             asserts      2      2      2      0      n/a
 
 Elapsed time =    0.000 seconds
-The stat time option is off.
 ```
